@@ -58,7 +58,7 @@ stage('Load Docker Image') {
  
  sh "minikube image load asritha716/app-products-infra"
  } else {
- bat(/minikube image load asritha716/app-products-infra)
+ bat("minikube image load asritha716/app-products-infra")
  }
  
  }
